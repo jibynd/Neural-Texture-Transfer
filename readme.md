@@ -9,6 +9,11 @@ Neural texture transfer is a technique primarily designed to integrate the textu
 
 <img src = 'Examples/CrocoLeaf_out.jpg'>
 
+<img src = 'Examples/peebles_under_water_in.jpg'>
+
+<img src = 'Examples/peebles_under_water_out.jpg'>
+            
+
 
 For more examples, click [me](https://github.com/jibynd/Neural-Texture-Transfer/tree/master/Examples)
 
