@@ -9,7 +9,7 @@ def turn_bw(img):
     tf, np = imp()
     img = tf.image.rgb_to_grayscale(img)
     img_bw = tf.image.grayscale_to_rgb(img)
-    return
+    return img_bw
 
 def get_model(texture_layers, content_layers):
     from tensorflow.python.keras import models
