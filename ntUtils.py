@@ -56,7 +56,7 @@ def load_img(img):
     scale = max_dim/long
     hr , wr = round(h*scale), round(w*scale)
     ar = kp_image ; pics = Image.fromarray
-    img = tf.image.resize_images(img, (hr, wr))
+    img = tf.image.resize(img, (hr, wr))
     return img
 
 def load_and_process_img(img):
